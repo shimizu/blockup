@@ -8,7 +8,6 @@ class App extends Component {
 		)
 	}
 }
-console.log("5")
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
