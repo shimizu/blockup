@@ -1,6 +1,8 @@
 const path = require('path')
 const webpack = require('webpack')
 
+const pre =require.resolve('babel-preset-env')
+
 module.exports = {
   module: {
     rules: [
@@ -10,9 +12,10 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [require.resolve('babel-preset-env')],
+            presets: [pre],
             plugins: [
-              require.resolve('babel-plugin-transform-object-rest-spread')
+              require.resolve('babel-plugin-transform-object-rest-spread'),
+              require.resolve('babel-plugin-transform-react-jsx')
             ]
           }
         }

@@ -1,10 +1,15 @@
-const margin = { top: 10, right: 30, bottom: 30, left: 30 }
-const width = 960 - margin.left - margin.right
-const height = 500 - margin.top - margin.bottom
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
 
-const svg = d3.select('body').append('svg')
-	.attr('width', width + margin.left + margin.right)
-	.attr('height', height + margin.top + margin.bottom)
+class App extends Component {
+	render(){
+		return (
+			<h1>Hello React & bl.ocks</h1>
+		)
+	}
+}
+console.log("5")
 
-const g = svg.append('g')
-	.attr('transform', `translate(${margin.left}, ${margin.top})`)
+ReactDOM.render(<App />, document.getElementById('root'));
+
+console.log(React, ReactDOM)
