@@ -6,4 +6,4 @@ bl.orck.orgにreactのプロジェクトを気軽にアップできるツール�
 
 # 参照元
 
-(https://github.com/gabrielflorit/blockup)[https://github.com/gabrielflorit/blockup]
+https://github.com/gabrielflorit/blockup
