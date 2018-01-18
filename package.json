@@ -1,7 +1,7 @@
 {
-  "name": "blockup",
+  "name": "blockup-react",
   "version": "2.2.10",
-  "description": "bl.ocks helper / generator",
+  "description": "bl.ocks helper / generator - add react modules",
   "main": "src/index.js",
   "bin": {
     "blockup": "src/index.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielflorit/blockup.git"
+    "url": "git+https://github.com/shimizu/blockup-react.git"
   },
   "keywords": [
     "bl.ocks"
@@ -19,12 +19,12 @@
   "author": "Gabriel Florit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabrielflorit/blockup/issues"
+    "url": "https://github.com/shimizu/blockup-react/issues"
   },
   "homepage": "https://github.com/gabrielflorit/blockup#readme",
   "dependencies": {
     "babel-core": "^6.24.0",
-    "babel-loader": "^7.0.0",
+    "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.2.1",
