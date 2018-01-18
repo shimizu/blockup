@@ -10,7 +10,7 @@ https://github.com/gabrielflorit/blockup
 
 
 
-#　ガイド
+# ガイド
 
 インストール
 ```
