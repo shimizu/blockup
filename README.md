@@ -10,7 +10,7 @@ https://github.com/gabrielflorit/blockup
 
 
 
-# ガイド
+# インストール＆アンインストール
 
 インストール
 ```
@@ -18,7 +18,14 @@ $ git clone git@github.com:shimizu/blockup-react.git
 $ sudo npm install -g ./blockup-react
 ```
 
-使い方
+アンインストール
+```
+$ sudo npm remove -g blockup-react
+```
+
+# 使い方
+
+プロジェクトの新規作成
 ```
 $ mkdir example
 $ cd example
@@ -31,7 +38,3 @@ $ npm install
 $ blockup-react server
 ```
 
-アンインストール
-```
-$ sudo npm remove -g blockup-react
-```
