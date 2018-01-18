@@ -4,7 +4,7 @@
   "description": "bl.ocks helper / generator - add react modules",
   "main": "src/index.js",
   "bin": {
-    "blockup": "src/index.js"
+    "blockup-react": "src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
